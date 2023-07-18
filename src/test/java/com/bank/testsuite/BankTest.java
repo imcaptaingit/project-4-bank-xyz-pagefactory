@@ -136,7 +136,7 @@ public class BankTest extends BaseTest {
         Thread.sleep(2000);
         homePage.clickOnCustomerLoginTab();
         //search customer that you created.
-        customersPage.searchCreatedCustomer("Albus Dumbledore");
+        customersPage.searchCreatedCustomer("Hermoine Granger");
         //click on "Login" Button
         customersPage.clickOnLoginButton();
         //click on "Withdrawal" Tab
